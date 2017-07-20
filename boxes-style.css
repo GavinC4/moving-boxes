@@ -1,0 +1,43 @@
+* {
+	margin: 0px;
+	border: 0px;
+}
+.container {
+	width: 100%;
+	height: 100%;
+	display: inline-block;
+}
+.box {
+	width: 100px;
+	height: 100px;
+	position: relative;
+	-webkit-animation: objectmove 1s infinite;
+	animation: objectmove 5s infinte; 
+}
+@-webkit-keyframes objectmove {
+	0%		{top: 0px; left:0px; }
+}
+.box-1 {
+	background-color: red;
+}
+.box-2 {
+	background-color: blue;
+}
+.box-3 {
+	background-color: green;
+}
+.box-4 {
+	background-color: orange;
+}
+.box-5 {
+	background-color: yellow;
+}
+.box-6 {
+	background-color: purple;
+}
+.box-7 {
+	background-color: teal;
+}
+.box-8 {
+	background-color: black;
+}
